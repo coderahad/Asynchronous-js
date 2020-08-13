@@ -36,6 +36,7 @@ const getDogPic = async() => {
 };
 
 console.log('1: Will get dog pics');
-const x = getDogPic();
-console.log(x);
-console.log('3: Done getting dog pics');
+getDogPic().then(x => {
+    console.log(x);
+    console.log('3: Done getting dog pics');
+});
