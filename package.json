@@ -1,0 +1,22 @@
+{
+  "name": "asynchronous",
+  "version": "1.0.0",
+  "description": "callback hell, async await, promises, try catch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderahad/Asynchronous-js.git"
+  },
+  "author": "\"Ahad\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderahad/Asynchronous-js/issues"
+  },
+  "homepage": "https://github.com/coderahad/Asynchronous-js#readme",
+  "dependencies": {
+    "superagent": "^6.0.0"
+  }
+}
