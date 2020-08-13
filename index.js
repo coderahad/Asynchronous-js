@@ -10,6 +10,15 @@ const readFilePro = file => {
     });
 }
 
+const writeFilePro = (file, data) => {
+    return new Promise((resolve, reject)=>{
+        fs.writeFile(file, data, err => {
+            if(err) reject('Could not write the file');
+            resolve('success');
+        });
+    });
+}
+
 readFilePro(`${__dirname}/dog.txt`).then(data => {
     console.log(`Breed:${data}`);
     
